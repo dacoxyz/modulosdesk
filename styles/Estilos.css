@@ -169,14 +169,22 @@ float: right;
  margin:.5em 10px .5em 0;
 */
 }
-.imgCrop{
+.imgCropDer{
   max-width: none;
   /*margin-top: margin-right: margin-bottom: margin-left*/
  margin:0px 208px 0px 0px;
 
 }
 
-.crop {
+
+.imgCropIzq{
+  max-width: none;
+  /*margin-top: margin-right: margin-bottom: margin-left*/
+ margin:0px 0px 0px -208px;
+
+}
+
+.cropD {
 
    position:absolute;
  top:-20px;
