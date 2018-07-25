@@ -178,10 +178,10 @@ float: right;
 
 
 .imgCropIzq{
-  max-width: none;
+max-width: none;
   /*margin-top: margin-right: margin-bottom: margin-left*/
- margin:0px 0px 0px -208px;
-
+ margin:0px 0px 0px 208px;
+float: right;
 }
 
 .cropD {
@@ -316,6 +316,11 @@ text-decoration:none;
 background-color:   #BEEADF;
 }
 
+#secImgconDiscount{
+
+  width: 100%;
+}
+
 #secSuper{
 align-items: center; 
   text-align: center; 
@@ -336,7 +341,7 @@ background-image: linear-gradient(-90deg, #1BA5C0 0%, #0C6B8C 100%);
   display: flex;
   align-items: center;
   background-color: #fff;
-  border: 1px solid #dedede;
+  border: 1px solid #dedede; /*la madre*/
   position: relative;
   z-index: 2;
   top: -5.71429rem;
@@ -385,4 +390,3 @@ cta__3VL2La8U.large__1ceBAXbq {
   position: relative;	/*desde su posicion original*/
 
 }
-
